@@ -1,6 +1,6 @@
 USE [SmartAccount]
 GO
-/****** added by murad Object:  Role [aspnet_Membership_BasicAccess]    Script Date: 01/11/2012 21:56:26 ******/
+/****** again added added by murad Object:  Role [aspnet_Membership_BasicAccess]    Script Date: 01/11/2012 21:56:26 ******/
 IF NOT EXISTS (SELECT * FROM sys.database_principals WHERE name = N'aspnet_Membership_BasicAccess' AND type = 'R')
 CREATE ROLE [aspnet_Membership_BasicAccess] AUTHORIZATION [dbo]
 GO
